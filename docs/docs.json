@@ -810,6 +810,14 @@
     {
       "source": "/gateway/trusted-proxy",
       "destination": "/gateway/trusted-proxy-auth"
+    },
+    {
+      "source": "/zh-CN/:path*",
+      "destination": "/zh-Hans/:path*"
+    },
+    {
+      "source": "/ja-JP/:path*",
+      "destination": "/ja/:path*h"
     }
   ],
   "navigation": {
